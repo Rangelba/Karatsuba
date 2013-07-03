@@ -1,0 +1,5 @@
+E:\Datos\Projectos WPF\TestKara\TestKara\bin\Debug\TestKara.dll
+E:\Datos\Projectos WPF\TestKara\TestKara\bin\Debug\TestKara.pdb
+E:\Datos\Projectos WPF\TestKara\TestKara\obj\Debug\TestKara.csprojResolveAssemblyReference.cache
+E:\Datos\Projectos WPF\TestKara\TestKara\obj\Debug\TestKara.dll
+E:\Datos\Projectos WPF\TestKara\TestKara\obj\Debug\TestKara.pdb

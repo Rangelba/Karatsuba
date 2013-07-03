@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="93338acb-3197-425b-97fc-a13ec7d0f2f6" name="RANGELBA@RANGELBA-PC 2013-06-26 22:00:41" runUser="RANGELBA-PC\RANGELBA" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4226534b-4c86-438a-82d7-57376a47f8bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="RANGELBA_RANGELBA-PC 2013-06-26 22_00_41" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-26T22:00:41.9458217-05:00" queuing="2013-06-26T22:00:43.1568910-05:00" start="2013-06-26T22:00:43.2648972-05:00" finish="2013-06-26T22:00:59.5878308-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoadKara" storage="e:\datos\projectos wpf\testkara\testkara\bin\debug\testkara.dll" id="c26c0a66-32a9-3aa9-df9b-2a33f27ad590">
+      <Execution id="b92fbff6-9fdf-40c7-bc1d-23c0a432db9d" />
+      <TestMethod codeBase="E:/Datos/Projectos WPF/TestKara/TestKara/bin/Debug/TestKara.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestKara.Kara, TestKara, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadKara" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c26c0a66-32a9-3aa9-df9b-2a33f27ad590" executionId="b92fbff6-9fdf-40c7-bc1d-23c0a432db9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b92fbff6-9fdf-40c7-bc1d-23c0a432db9d" testId="c26c0a66-32a9-3aa9-df9b-2a33f27ad590" testName="LoadKara" computerName="RANGELBA-PC" duration="00:00:14.1749704" startTime="2013-06-26T22:00:43.3319010-05:00" endTime="2013-06-26T22:00:59.4728242-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b92fbff6-9fdf-40c7-bc1d-23c0a432db9d">
+      <Output>
+        <DebugTrace>W, 2264, 13, 2013/06/26, 22:00:45.868, 319877343363, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] TypeString "#(R)"
+\0&lt;/a&gt;
+E, 2264, 13, 2013/06/26, 22:00:46.396, 319878715037, QTAgent32.exe, Exception: System.ArgumentException
+	Message: Value does not fall within the expected range.
+	Stack Trace:    at Accessibility.IAccessible.get_accRole(Object varChild)
+   at Microsoft.VisualStudio.TestTools.UITest.Extension.Msaa.AccWrapper.get_RoleInt()
+	BaseExceptionMessage: Value does not fall within the expected range.
+
+E, 2264, 13, 2013/06/26, 22:00:46.514, 319879021889, QTAgent32.exe, Exception: System.ArgumentException
+	Message: Value does not fall within the expected range.
+	Stack Trace:    at Accessibility.IAccessible.get_accRole(Object varChild)
+   at Microsoft.VisualStudio.TestTools.UITest.Extension.Msaa.AccWrapper.get_RoleInt()
+	BaseExceptionMessage: Value does not fall within the expected range.
+
+W, 2264, 13, 2013/06/26, 22:00:48.179, 319883349166, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (87, 619) &gt;
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:50.654, 319889777922, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] SetValueAsEditBox "E:\Datos\Projectos WPF\Karatsuba\Karatsuba\bin\Debug"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:50.656, 319889784132, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] SetValueAsComboBox "E:\Datos\Projectos WPF\Karatsuba\Karatsuba\bin\Debug" - "[MSAA, VisibleOnly]ControlType='ComboBox' &amp;&amp; Name='Open:'"  &lt; Set via SetValueAsEditBox &gt;
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:52.254, 319893935362, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit' &amp;&amp; Name='Open:'"
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:53.096, 319896122783, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] DoubleClick - "[MSAA, VisibleOnly]ControlType='Edit' &amp;&amp; Name='Name'"  &lt; Mouse cursor location (403, 140) &gt;
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:54.456, 319899657430, QTAgent32.exe, &lt;a class=success&gt;Playback - {7} [SUCCESS] SendKeys "^{HOME}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+E, 2264, 13, 2013/06/26, 22:00:54.490, 319899744610, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 2264, 13, 2013/06/26, 22:00:54.853, 319900688463, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] SendKeys "^+{END}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+E, 2264, 13, 2013/06/26, 22:00:54.867, 319900725475, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 2264, 13, 2013/06/26, 22:00:55.049, 319901198731, QTAgent32.exe, &lt;a class=success&gt;Playback - {9} [SUCCESS] SendKeys "{DELETE}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:56.058, 319903819545, QTAgent32.exe, &lt;a class=success&gt;Playback - {10} [SUCCESS] SetValueAsEditBox "1234" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:56.961, 319906164450, QTAgent32.exe, &lt;a class=success&gt;Playback - {11} [SUCCESS] SendKeys "^{HOME}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"
+\0&lt;/a&gt;
+E, 2264, 13, 2013/06/26, 22:00:56.972, 319906194724, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 2264, 13, 2013/06/26, 22:00:57.265, 319906955000, QTAgent32.exe, &lt;a class=success&gt;Playback - {12} [SUCCESS] SendKeys "^+{END}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"
+\0&lt;/a&gt;
+E, 2264, 13, 2013/06/26, 22:00:57.277, 319906986902, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 2264, 13, 2013/06/26, 22:00:57.428, 319907378561, QTAgent32.exe, &lt;a class=success&gt;Playback - {13} [SUCCESS] SendKeys "{DELETE}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:58.764, 319910851336, QTAgent32.exe, &lt;a class=success&gt;Playback - {14} [SUCCESS] SetValueAsEditBox "5678" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:59.266, 319912155943, QTAgent32.exe, &lt;a class=success&gt;Playback - {15} [SUCCESS] MouseButtonClick - "[UIA]ControlType='Button' &amp;&amp; Name='Calcular'"
+\0&lt;/a&gt;
+W, 2264, 13, 2013/06/26, 22:00:59.446, 319912622417, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 2264, 13, 2013/06/26, 22:00:59.452, 319912638083, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,42 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="Karatsuba.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="640" Height="480">
+	<Window.Resources>
+		<Style x:Key="TextBoxStyle1" TargetType="{x:Type TextBox}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type TextBox}">
+						<WrapPanel Margin="-11,0,-17,0">
+							<TextBlock TextWrapping="Wrap" Text="este es un programa de demo" Width="454.197" Height="169.96"/>
+						</WrapPanel>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Border BorderBrush="Black" BorderThickness="1" Margin="29,48,8,73">
+			<Border.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="Black"/>
+					<GradientStop Color="#FFFBF7F7" Offset="0.991"/>
+				</LinearGradientBrush>
+			</Border.Background>
+			<TextBlock Height="40" Margin="48,25,19,0" TextWrapping="Wrap" Text="KARATSUBA  MULTIPLICATOR" VerticalAlignment="Top" FontSize="32" FontWeight="Bold" Foreground="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+		</Border>
+		<TextBox x:Name="Multiplicando" Height="24" Margin="75,167,96,251" Text="0" TextChanged="Multiplicando_TextChanged"/>
+		<TextBlock Height="26" Margin="75,141,96,275" TextWrapping="Wrap" Text="Multiplicando" FontWeight="Bold" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+		<TextBlock Margin="75,206,96,213" TextWrapping="Wrap" Text="Multiplicador" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.425,0.941" OpacityMask="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+		<TextBox x:Name="Multiplicador" Margin="75,234,96,182" Text="0" TextChanged="Multipilicador_TextChanged"/>
+		<TextBlock Margin="75,273,96,145" TextWrapping="Wrap" Text="Resultado" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.425,0.941" Height="24" Foreground="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+		<TextBox x:Name="Total" Height="24" Margin="75,297,96,121" Text="0" IsReadOnly="True"/>
+        <Button Content="Calcular" Height="28" Margin="236,0,268,85" VerticalAlignment="Bottom" Click="Button_Click"/>
+	</Grid>
+</Window>

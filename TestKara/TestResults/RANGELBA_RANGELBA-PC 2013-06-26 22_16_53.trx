@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d783ecb9-058a-460b-b1fa-3f70c5f35f80" name="RANGELBA@RANGELBA-PC 2013-06-26 22:16:53" runUser="RANGELBA-PC\RANGELBA" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4226534b-4c86-438a-82d7-57376a47f8bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="RANGELBA_RANGELBA-PC 2013-06-26 22_16_53" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-26T22:16:53.8884137-05:00" queuing="2013-06-26T22:16:55.3124951-05:00" start="2013-06-26T22:16:55.4435026-05:00" finish="2013-06-26T22:17:17.4297602-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoadKara" storage="e:\datos\projectos wpf\testkara\testkara\bin\debug\testkara.dll" id="c26c0a66-32a9-3aa9-df9b-2a33f27ad590">
+      <Execution id="3150cebf-f9bf-4958-b558-a9046ad293fd" />
+      <TestMethod codeBase="E:/Datos/Projectos WPF/TestKara/TestKara/bin/Debug/TestKara.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestKara.Kara, TestKara, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadKara" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c26c0a66-32a9-3aa9-df9b-2a33f27ad590" executionId="3150cebf-f9bf-4958-b558-a9046ad293fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3150cebf-f9bf-4958-b558-a9046ad293fd" testId="c26c0a66-32a9-3aa9-df9b-2a33f27ad590" testName="LoadKara" computerName="RANGELBA-PC" duration="00:00:19.9118123" startTime="2013-06-26T22:16:55.5165068-05:00" endTime="2013-06-26T22:17:17.2607505-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3150cebf-f9bf-4958-b558-a9046ad293fd">
+      <Output>
+        <DebugTrace>W, 8604, 13, 2013/06/26, 22:16:57.912, 322402818442, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] TypeString "#(R)"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:16:58.467, 322404258986, QTAgent32.exe, Exception: System.ArgumentException
+	Message: Value does not fall within the expected range.
+	Stack Trace:    at Accessibility.IAccessible.get_accRole(Object varChild)
+   at Microsoft.VisualStudio.TestTools.UITest.Extension.Msaa.AccWrapper.get_RoleInt()
+	BaseExceptionMessage: Value does not fall within the expected range.
+
+E, 8604, 13, 2013/06/26, 22:16:58.596, 322404594809, QTAgent32.exe, Exception: System.ArgumentException
+	Message: Value does not fall within the expected range.
+	Stack Trace:    at Accessibility.IAccessible.get_accRole(Object varChild)
+   at Microsoft.VisualStudio.TestTools.UITest.Extension.Msaa.AccWrapper.get_RoleInt()
+	BaseExceptionMessage: Value does not fall within the expected range.
+
+W, 8604, 13, 2013/06/26, 22:17:00.090, 322408477135, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (87, 619) &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:01.748, 322412784411, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] SetValueAsEditBox "E:\\codetag\Karatsuba"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:01.751, 322412791798, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] SetValueAsComboBox "E:\\codetag\Karatsuba" - "[MSAA, VisibleOnly]ControlType='ComboBox' &amp;&amp; Name='Open:'"  &lt; Set via SetValueAsEditBox &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:02.141, 322413805520, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='OK'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:04.061, 322418793889, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] SendKeys "^{HOME}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:17:04.085, 322418856705, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 8604, 13, 2013/06/26, 22:17:04.396, 322419662315, QTAgent32.exe, &lt;a class=success&gt;Playback - {7} [SUCCESS] SendKeys "^+{END}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:17:04.410, 322419697773, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 8604, 13, 2013/06/26, 22:17:04.573, 322420121686, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] SendKeys "{DELETE}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:05.540, 322422634203, QTAgent32.exe, &lt;a class=success&gt;Playback - {9} [SUCCESS] SetValueAsEditBox "1234" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:06.271, 322424534688, QTAgent32.exe, Playback - [WARNING] Internal warning: Convertion of UIA elements to MSAA is not supported in the current version
+\0
+W, 8604, 13, 2013/06/26, 22:17:06.273, 322424538426, QTAgent32.exe, &lt;a class=success&gt;Playback - {10} [SUCCESS] SendKeys "D" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:06.752, 322425784606, QTAgent32.exe, &lt;a class=success&gt;Playback - {11} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='OK'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:07.160, 322426843007, QTAgent32.exe, &lt;a class=success&gt;Playback - {12} [SUCCESS] MouseButtonClick - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:07.816, 322428547836, QTAgent32.exe, Playback - [WARNING] Internal warning: Convertion of UIA elements to MSAA is not supported in the current version
+\0
+W, 8604, 13, 2013/06/26, 22:17:07.818, 322428554233, QTAgent32.exe, &lt;a class=success&gt;Playback - {13} [SUCCESS] SendKeys "{Subtract}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:08.192, 322429525005, QTAgent32.exe, &lt;a class=success&gt;Playback - {14} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='OK'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:08.381, 322430016960, QTAgent32.exe, &lt;a class=success&gt;Playback - {15} [SUCCESS] EnsureVisible - "[VisibleOnly]ControlType='Window' &amp;&amp; Name='MainWindow' &amp;&amp; ClassName=&gt;'HwndWrapper'"  &lt; Element is clickable &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:08.411, 322430095236, QTAgent32.exe, &lt;a class=success&gt;Playback - {16} [SUCCESS] EnsureVisible - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"  &lt; Element is clickable &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:08.485, 322430285675, QTAgent32.exe, &lt;a class=success&gt;Playback - {17} [SUCCESS] StartDragging - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"  &lt; Mouse cursor location (292, 359) &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:08.626, 322430652269, QTAgent32.exe, &lt;a class=success&gt;Playback - {18} [SUCCESS] EnsureVisible - "[VisibleOnly]ControlType='Window' &amp;&amp; Name='MainWindow' &amp;&amp; ClassName=&gt;'HwndWrapper'"  &lt; Element is clickable &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:08.892, 322431344564, QTAgent32.exe, &lt;a class=success&gt;Playback - {19} [SUCCESS] StopDragging - "[VisibleOnly]ControlType='Window' &amp;&amp; Name='MainWindow' &amp;&amp; ClassName=&gt;'HwndWrapper'"  &lt; Mouse cursor location (223, 357) &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:09.608, 322433203386, QTAgent32.exe, Playback - [WARNING] Internal warning: Convertion of UIA elements to MSAA is not supported in the current version
+\0
+W, 8604, 13, 2013/06/26, 22:17:09.610, 322433208603, QTAgent32.exe, &lt;a class=success&gt;Playback - {20} [SUCCESS] SendKeys "{Subtract}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:17:09.737, 322433539933, QTAgent32.exe, GetClassName for handle 1903724 failed
+W, 8604, 13, 2013/06/26, 22:17:10.038, 322434323033, QTAgent32.exe, &lt;a class=success&gt;Playback - {21} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='OK'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:10.416, 322435303619, QTAgent32.exe, &lt;a class=success&gt;Playback - {22} [SUCCESS] MouseButtonClick - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:11.090, 322437055762, QTAgent32.exe, Playback - [WARNING] Internal warning: Convertion of UIA elements to MSAA is not supported in the current version
+\0
+W, 8604, 13, 2013/06/26, 22:17:11.092, 322437059188, QTAgent32.exe, &lt;a class=success&gt;Playback - {23} [SUCCESS] SendKeys "$" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:17:11.217, 322437383990, QTAgent32.exe, GetClassName for handle 9568538 failed
+W, 8604, 13, 2013/06/26, 22:17:11.509, 322438143363, QTAgent32.exe, &lt;a class=success&gt;Playback - {24} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='OK'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:11.877, 322439101094, QTAgent32.exe, &lt;a class=success&gt;Playback - {25} [SUCCESS] MouseButtonClick - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:12.777, 322441438625, QTAgent32.exe, Playback - [WARNING] Internal warning: Convertion of UIA elements to MSAA is not supported in the current version
+\0
+W, 8604, 13, 2013/06/26, 22:17:12.779, 322441443529, QTAgent32.exe, &lt;a class=success&gt;Playback - {26} [SUCCESS] SendKeys "f" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicando'"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:17:12.901, 322441759729, QTAgent32.exe, GetClassName for handle 2034796 failed
+W, 8604, 13, 2013/06/26, 22:17:13.193, 322442518854, QTAgent32.exe, &lt;a class=success&gt;Playback - {27} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='OK'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:14.078, 322444818835, QTAgent32.exe, &lt;a class=success&gt;Playback - {28} [SUCCESS] SendKeys "^{HOME}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:17:14.092, 322444855323, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 8604, 13, 2013/06/26, 22:17:14.399, 322445653272, QTAgent32.exe, &lt;a class=success&gt;Playback - {29} [SUCCESS] SendKeys "^+{END}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:17:14.419, 322445705214, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 8604, 13, 2013/06/26, 22:17:14.585, 322446135965, QTAgent32.exe, &lt;a class=success&gt;Playback - {30} [SUCCESS] SendKeys "{DELETE}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:15.490, 322448487953, QTAgent32.exe, &lt;a class=success&gt;Playback - {31} [SUCCESS] SetValueAsEditBox "5678" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:16.153, 322450209763, QTAgent32.exe, Playback - [WARNING] Internal warning: Convertion of UIA elements to MSAA is not supported in the current version
+\0
+W, 8604, 13, 2013/06/26, 22:17:16.155, 322450214269, QTAgent32.exe, &lt;a class=success&gt;Playback - {32} [SUCCESS] SendKeys "{%}" - "[UIA]ControlType='Edit' &amp;&amp; AutomationId='Multiplicador'"
+\0&lt;/a&gt;
+E, 8604, 13, 2013/06/26, 22:17:16.284, 322450550673, QTAgent32.exe, GetClassName for handle 9699610 failed
+W, 8604, 13, 2013/06/26, 22:17:16.537, 322451207394, QTAgent32.exe, &lt;a class=success&gt;Playback - {33} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='OK'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:17.053, 322452548218, QTAgent32.exe, &lt;a class=success&gt;Playback - {34} [SUCCESS] MouseButtonClick - "[UIA]ControlType='Button' &amp;&amp; Name='Calcular'"
+\0&lt;/a&gt;
+W, 8604, 13, 2013/06/26, 22:17:17.234, 322453020103, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 8604, 13, 2013/06/26, 22:17:17.236, 322453023213, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
